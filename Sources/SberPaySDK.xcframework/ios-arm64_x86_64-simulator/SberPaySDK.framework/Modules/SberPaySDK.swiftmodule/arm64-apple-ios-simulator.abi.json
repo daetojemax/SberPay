@@ -1,0 +1,2118 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Result",
+        "printedName": "Result",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SberPaySDK.Result.Type) -> SberPaySDK.Result",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "SberPaySDK.Result",
+                    "usr": "c:@M@SberPaySDK@E@SBPResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SberPaySDK.Result.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "SberPaySDK.Result",
+                        "usr": "c:@M@SberPaySDK@E@SBPResult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SberPaySDK@E@SBPResult@SBPResultUnknown",
+            "mangledName": "$s10SberPaySDK6ResultO7unknownyA2CmF",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "invalidParams",
+            "printedName": "invalidParams",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SberPaySDK.Result.Type) -> SberPaySDK.Result",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "SberPaySDK.Result",
+                    "usr": "c:@M@SberPaySDK@E@SBPResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SberPaySDK.Result.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "SberPaySDK.Result",
+                        "usr": "c:@M@SberPaySDK@E@SBPResult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SberPaySDK@E@SBPResult@SBPResultInvalidParams",
+            "mangledName": "$s10SberPaySDK6ResultO13invalidParamsyA2CmF",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "launchError",
+            "printedName": "launchError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SberPaySDK.Result.Type) -> SberPaySDK.Result",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "SberPaySDK.Result",
+                    "usr": "c:@M@SberPaySDK@E@SBPResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SberPaySDK.Result.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "SberPaySDK.Result",
+                        "usr": "c:@M@SberPaySDK@E@SBPResult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SberPaySDK@E@SBPResult@SBPResultLaunchError",
+            "mangledName": "$s10SberPaySDK6ResultO11launchErroryA2CmF",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SberPaySDK.Result.Type) -> SberPaySDK.Result",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "SberPaySDK.Result",
+                    "usr": "c:@M@SberPaySDK@E@SBPResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SberPaySDK.Result.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "SberPaySDK.Result",
+                        "usr": "c:@M@SberPaySDK@E@SBPResult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SberPaySDK@E@SBPResult@SBPResultSuccess",
+            "mangledName": "$s10SberPaySDK6ResultO7successyA2CmF",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SberPaySDK.Result?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "SberPaySDK.Result",
+                    "usr": "c:@M@SberPaySDK@E@SBPResult"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10SberPaySDK6ResultO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10SberPaySDK6ResultO8rawValueACSgSi_tcfc",
+            "moduleName": "SberPaySDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SberPaySDK6ResultO8rawValueSivp",
+            "mangledName": "$s10SberPaySDK6ResultO8rawValueSivp",
+            "moduleName": "SberPaySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SberPaySDK6ResultO8rawValueSivg",
+                "mangledName": "$s10SberPaySDK6ResultO8rawValueSivg",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@SberPaySDK@E@SBPResult",
+        "mangledName": "$s10SberPaySDK6ResultO",
+        "moduleName": "SberPaySDK",
+        "objc_name": "SBPResult",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SberPay",
+        "printedName": "SberPay",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pay",
+            "printedName": "pay(with:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentRequest",
+                "printedName": "SberPaySDK.PaymentRequest",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPaymentRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((SberPaySDK.Result) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SberPaySDK.Result) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "SberPaySDK.Result",
+                        "usr": "c:@M@SberPaySDK@E@SBPResult"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPSberPay(cm)payWithRequest:completionHandler:",
+            "mangledName": "$s10SberPaySDK0aB0C3pay4with17completionHandleryAA14PaymentRequestC_yAA6ResultOcSgtFZ",
+            "moduleName": "SberPaySDK",
+            "static": true,
+            "objc_name": "payWithRequest:completionHandler:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pay",
+            "printedName": "pay(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentRequest",
+                "printedName": "SberPaySDK.PaymentRequest",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPaymentRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPSberPay(cm)payWithInvoiceId:",
+            "mangledName": "$s10SberPaySDK0aB0C3pay4withyAA14PaymentRequestC_tFZ",
+            "moduleName": "SberPaySDK",
+            "static": true,
+            "objc_name": "payWithInvoiceId:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isSberbankAppInstalled",
+            "printedName": "isSberbankAppInstalled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPSberPay(cpy)isSberbankAppInstalled",
+            "mangledName": "$s10SberPaySDK0aB0C22isSberbankAppInstalledSbvpZ",
+            "moduleName": "SberPaySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPSberPay(cm)isSberbankAppInstalled",
+                "mangledName": "$s10SberPaySDK0aB0C22isSberbankAppInstalledSbvgZ",
+                "moduleName": "SberPaySDK",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SberPay",
+                "printedName": "SberPaySDK.SberPay",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPSberPay"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPSberPay(im)init",
+            "mangledName": "$s10SberPaySDK0aB0CACycfc",
+            "moduleName": "SberPaySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SberPaySDK@objc(cs)SBPSberPay",
+        "mangledName": "$s10SberPaySDK0aB0C",
+        "moduleName": "SberPaySDK",
+        "objc_name": "SBPSberPay",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentRequest",
+        "printedName": "PaymentRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(invoiceId:redirectUri:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentRequest",
+                "printedName": "SberPaySDK.PaymentRequest",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPaymentRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPaymentRequest(im)initWithInvoiceId:redirectUri:",
+            "mangledName": "$s10SberPaySDK14PaymentRequestC9invoiceId11redirectUriACSS_SSSgtcfc",
+            "moduleName": "SberPaySDK",
+            "objc_name": "initWithInvoiceId:redirectUri:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(invoiceId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentRequest",
+                "printedName": "SberPaySDK.PaymentRequest",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPaymentRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPaymentRequest(im)initWithInvoiceId:",
+            "mangledName": "$s10SberPaySDK14PaymentRequestC9invoiceIdACSS_tcfc",
+            "moduleName": "SberPaySDK",
+            "objc_name": "initWithInvoiceId:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentRequest",
+                "printedName": "SberPaySDK.PaymentRequest",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPaymentRequest"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPaymentRequest(im)init",
+            "mangledName": "$s10SberPaySDK14PaymentRequestCACycfc",
+            "moduleName": "SberPaySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SberPaySDK@objc(cs)SBPPaymentRequest",
+        "mangledName": "$s10SberPaySDK14PaymentRequestC",
+        "moduleName": "SberPaySDK",
+        "objc_name": "SBPPaymentRequest",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PayButton",
+        "printedName": "PayButton",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shadowOffset",
+            "printedName": "shadowOffset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(py)shadowOffset",
+            "mangledName": "$s10SberPaySDK0B6ButtonC12shadowOffsetSo6CGSizeVvp",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)shadowOffset",
+                "mangledName": "$s10SberPaySDK0B6ButtonC12shadowOffsetSo6CGSizeVvg",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)setShadowOffset:",
+                "mangledName": "$s10SberPaySDK0B6ButtonC12shadowOffsetSo6CGSizeVvs",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SberPaySDK0B6ButtonC12shadowOffsetSo6CGSizeVvM",
+                "mangledName": "$s10SberPaySDK0B6ButtonC12shadowOffsetSo6CGSizeVvM",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shadowOpacity",
+            "printedName": "shadowOpacity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(py)shadowOpacity",
+            "mangledName": "$s10SberPaySDK0B6ButtonC13shadowOpacity12CoreGraphics7CGFloatVvp",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)shadowOpacity",
+                "mangledName": "$s10SberPaySDK0B6ButtonC13shadowOpacity12CoreGraphics7CGFloatVvg",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)setShadowOpacity:",
+                "mangledName": "$s10SberPaySDK0B6ButtonC13shadowOpacity12CoreGraphics7CGFloatVvs",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SberPaySDK0B6ButtonC13shadowOpacity14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s10SberPaySDK0B6ButtonC13shadowOpacity12CoreGraphics7CGFloatVvM",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shadowRadius",
+            "printedName": "shadowRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(py)shadowRadius",
+            "mangledName": "$s10SberPaySDK0B6ButtonC12shadowRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)shadowRadius",
+                "mangledName": "$s10SberPaySDK0B6ButtonC12shadowRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)setShadowRadius:",
+                "mangledName": "$s10SberPaySDK0B6ButtonC12shadowRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SberPaySDK0B6ButtonC12shadowRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s10SberPaySDK0B6ButtonC12shadowRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(py)cornerRadius",
+            "mangledName": "$s10SberPaySDK0B6ButtonC12cornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)cornerRadius",
+                "mangledName": "$s10SberPaySDK0B6ButtonC12cornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)setCornerRadius:",
+                "mangledName": "$s10SberPaySDK0B6ButtonC12cornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SberPaySDK0B6ButtonC12cornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s10SberPaySDK0B6ButtonC12cornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tapAction",
+            "printedName": "tapAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(py)tapAction",
+            "mangledName": "$s10SberPaySDK0B6ButtonC9tapActionyycSgvp",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)tapAction",
+                "mangledName": "$s10SberPaySDK0B6ButtonC9tapActionyycSgvg",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)setTapAction:",
+                "mangledName": "$s10SberPaySDK0B6ButtonC9tapActionyycSgvs",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SberPaySDK0B6ButtonC9tapActionyycSgvM",
+                "mangledName": "$s10SberPaySDK0B6ButtonC9tapActionyycSgvM",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEnabled",
+            "printedName": "isEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(py)isEnabled",
+            "mangledName": "$s10SberPaySDK0B6ButtonC9isEnabledSbvp",
+            "moduleName": "SberPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)isEnabled",
+                "mangledName": "$s10SberPaySDK0B6ButtonC9isEnabledSbvg",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)setIsEnabled:",
+                "mangledName": "$s10SberPaySDK0B6ButtonC9isEnabledSbvs",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SberPaySDK0B6ButtonC9isEnabledSbvM",
+                "mangledName": "$s10SberPaySDK0B6ButtonC9isEnabledSbvM",
+                "moduleName": "SberPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PayButton",
+                "printedName": "SberPaySDK.PayButton",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)initWithFrame:",
+            "mangledName": "$s10SberPaySDK0B6ButtonC5frameACSo6CGRectV_tcfc",
+            "moduleName": "SberPaySDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PayButton",
+                "printedName": "SberPaySDK.PayButton",
+                "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)init",
+            "mangledName": "$s10SberPaySDK0B6ButtonCACycfc",
+            "moduleName": "SberPaySDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "prepareForInterfaceBuilder",
+            "printedName": "prepareForInterfaceBuilder()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)prepareForInterfaceBuilder",
+            "mangledName": "$s10SberPaySDK0B6ButtonC26prepareForInterfaceBuilderyyF",
+            "moduleName": "SberPaySDK",
+            "overriding": true,
+            "objc_name": "prepareForInterfaceBuilder",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton(im)layoutSubviews",
+            "mangledName": "$s10SberPaySDK0B6ButtonC14layoutSubviewsyyF",
+            "moduleName": "SberPaySDK",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SberPaySDK@objc(cs)SBPPayButton",
+        "mangledName": "$s10SberPaySDK0B6ButtonC",
+        "moduleName": "SberPaySDK",
+        "objc_name": "SBPPayButton",
+        "declAttributes": [
+          "Custom",
+          "Final",
+          "AccessControl",
+          "IBDesignable",
+          "ObjCMembers",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SberPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/UILabel+Helper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.SizeConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 421,
+      "length": 2,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.SizeConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 2,
+      "value": "79"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.SizeConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.SizeConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 576,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.SizeConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 606,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.SizeConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.SizeConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 730,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.SizeConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 760,
+      "length": 2,
+      "value": "33"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.SizeConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 772,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/UIImage+Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 17,
+      "value": "\"ic_sberpay_logo\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/UIImage+Helper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 446,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/UIImage+Helper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 452,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/UIImage+Helper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 542,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 9,
+      "value": "\"app2app\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/Result.swift",
+      "kind": "IntegerLiteral",
+      "offset": 443,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/Result.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 11,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/Result.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/Result.swift",
+      "kind": "IntegerLiteral",
+      "offset": 443,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/Result.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 11,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/Result.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 12,
+      "value": "\"sbolpay:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 19,
+      "value": "\"sberbankonline:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 19,
+      "value": "\"btripsexpenses:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 39,
+      "value": "\"btripsexpenses:\/\/sbolpay\/invoicing\/v2\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 24,
+      "value": "\"sberpay:\/\/invoicing\/v2\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 24,
+      "value": "\"sbolpay:\/\/invoicing\/v2\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 39,
+      "value": "\"btripsexpenses:\/\/sbolpay\/invoicing\/v2\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 24,
+      "value": "\"sberpay:\/\/invoicing\/v2\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 24,
+      "value": "\"sbolpay:\/\/invoicing\/v2\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "Dictionary",
+      "offset": 2612,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3226,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/SberPay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3233,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PaymentRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 14,
+      "value": "\"SberPaySDK.PaymentRequest\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.Style.swift",
+      "kind": "IntegerLiteral",
+      "offset": 414,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.Style.swift",
+      "kind": "IntegerLiteral",
+      "offset": 476,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.Style.swift",
+      "kind": "StringLiteral",
+      "offset": 746,
+      "length": 19,
+      "value": "\"c_paybutton_green\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/URLOpener.swift",
+      "kind": "Dictionary",
+      "offset": 444,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 18,
+      "value": "\"Оплатить\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 433,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 444,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 457,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 469,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1047,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1161,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1266,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1406,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1958,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 1962,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 2008,
+      "length": 4,
+      "value": "70.0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2150,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2209,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2250,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2830,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2912,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2921,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2932,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2942,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "StringLiteral",
+      "offset": 3311,
+      "length": 28,
+      "value": "\"c_paybutton_green_disabled\""
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4151,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20739500\/Development\/SberPay_SDK\/sberpay_sdk_ios\/SberPaySDK\/PayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4193,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
