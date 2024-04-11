@@ -15,9 +15,13 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SberPay"),
+            name: "SberPay",
+        dependencies: [
+            .target(name: "SberPaySDK")
+        ]),
         .testTarget(
             name: "SberPayTests",
             dependencies: ["SberPay"]),
+        .binaryTarget(name: "SberPaySDK", path: "./sources/SberPaySDK.xcframework")
     ]
 )
