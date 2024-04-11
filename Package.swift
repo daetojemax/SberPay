@@ -22,6 +22,6 @@ let package = Package(
         .testTarget(
             name: "SberPayTests",
             dependencies: ["SberPay"]),
-        .binaryTarget(name: "SberPaySDK", path: "./sources/SberPaySDK.xcframework")
+        .binaryTarget(name: "SberPaySDK", path: "./Sources/SberPaySDK.xcframework")
     ]
 )
